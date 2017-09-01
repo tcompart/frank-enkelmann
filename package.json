@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^8.8.0",
+    "history": "^4.7.2",
     "jwt-decode": "^2.2.0",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.0.2",
