@@ -1,0 +1,163 @@
+$base: #f938ab;
+$blue: #012b4b;
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+
+  margin: 0;
+  padding-top: 30px;
+  @media (max-width: 767px) {
+    padding-top: 0;
+  }
+
+  font-style: normal;
+  font-size: 120%;
+  font-family: Arial, sans-serif !important;
+
+  a {
+    font-family: Arial, sans-serif !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  header {
+    padding-bottom: 30px;
+    .headline {
+      text-decoration: none;
+    }
+    .contact-box {
+      margin-top: 30px;
+    }
+  }
+
+  .content {
+
+    font-size: 150%;
+
+    .fullscreen-picture {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+
+      img {
+        filter: drop-shadow(5px 5px 5px $blue);
+      }
+    }
+
+    .inner-content {
+      padding-top: 3em;
+      padding-left: 1em;
+      padding-bottom: 1em;
+    }
+
+    .navigation-container {
+
+      margin-top: 70px;
+
+      .nav {
+        & > li > a {
+          position: relative;
+          display: block;
+          line-height: 20px;
+          color: white;
+
+          padding-left: 3px;
+
+          //text-align: right;
+          background-color: $blue;
+          text-align: left;
+
+          @media (min-width: 768px) {
+            padding: 10px 15px;
+          }
+
+          &:hover {
+            background-color: white !important;
+            color: $blue !important;
+          }
+
+          &.active {
+            background-color: lightgray;
+            color: $blue !important;
+          }
+        }
+        -webkit-padding-start: 0;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $blue;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.padding-left {
+  padding-left: 5px;
+}
+
+.padding-right {
+  padding-right: 5px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  width: 100%;
+  display: block;
+}
+
+footer {
+  clear: both;
+  display: block;
+  color: #dddddd;
+  font-size: 80%;
+
+  a {
+    color: #dddddd;
+  }
+}
+
+.container {
+  padding: 5px;
+  clear: both;
+
+  @media (min-width: 600px) {
+    padding: 5px 15px;
+  }
+}
+
+.row {
+  .one-third {
+    padding: 5px;
+    float: left;
+    width: 33%;
+  }
+
+  .two-thirds {
+    padding: 5px;
+    float: left;
+    width: 66%;
+  }
+}
