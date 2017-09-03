@@ -15,7 +15,6 @@ $blue: #012b4b;
 body {
 
   margin: 0;
-  padding-top: 30px;
   @media (max-width: 767px) {
     padding-top: 0;
   }
@@ -25,15 +24,21 @@ body {
   font-family: Arial, sans-serif !important;
 
   a {
+    color: $blue;
+    &:hover, &:focus {
+      color: #337ab7;
+    }
     font-family: Arial, sans-serif !important;
     text-decoration: none;
     background-color: transparent;
   }
 
   header {
-    padding-bottom: 30px;
     .headline {
       text-decoration: none;
+    }
+    nav.navbar {
+      margin-bottom: 0;
     }
     .contact-box {
       margin-top: 30px;
@@ -56,7 +61,7 @@ body {
 
     .inner-content {
       padding-top: 3em;
-      padding-left: 1em;
+      padding-left: 2em;
       padding-bottom: 1em;
     }
 

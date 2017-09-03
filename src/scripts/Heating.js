@@ -28,12 +28,12 @@ const content = <div>
 </div>
 
 export default () => <div className="heating">
-    <h2>Heizungen</h2>
     <Col xs={12} sm={4} md={4} lg={3}>
         <Row>
             <img className="padding img-responsive" alt=""  src={heating1} />
         </Row>
         <Col xs={12} smHidden={true} mdHidden={true} lgHidden={true}>
+            <h2>Heizungen</h2>
             {content}
         </Col>
         <Row>
@@ -43,6 +43,9 @@ export default () => <div className="heating">
             <img className="padding img-responsive" alt=""  src={heating2} />
         </Row>
     </Col>
-    <Col xsHidden={true} sm={8} md={8} lg={9}>{content}</Col>
+    <Col xsHidden={true} sm={8} md={8} lg={9}>
+        <h2>Heizungen</h2>
+        {content}
+        </Col>
 </div>
 

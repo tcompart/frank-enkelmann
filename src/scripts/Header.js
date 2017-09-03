@@ -7,11 +7,11 @@ import Mail from "./Mail";
 export default (props) =>
     <div>
         <header role="banner">
-            <nav id="navbar-primary" className="navbar navbar-default">
+            <nav id="navbar-primary" className="navbar">
                 <Col lg={8} sm={9} md={9} xs={12}>
                     <NavLink className="headline" to="/" aria-label="home">
-                        <h1 className="h1">Bollensdorff-Enkelmann GmbH</h1>
-                        <h2 className="h2">Heizung und Sanitär in und um Berlin</h2>
+                        <h1 className="text-uppercase"><strong>Bollensdorff-Enkelmann GmbH</strong></h1>
+                        <h2 className="">Heizung und Sanitär in und um Berlin</h2>
                     </NavLink>
                 </Col>
                 <Col className="contact-box pull-right" lg={2} sm={3} md={3} xs={12}>
