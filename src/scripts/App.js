@@ -20,6 +20,7 @@ export default () => {
                         <img alt="" src={picture}/>
                     </Col>
                     <Col className="inner-content" xs={12} md={9} sm={9} lg={10}>
+                        <h2 className="">Heizung und Sanitär in und um Berlin</h2>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/baeder" component={Bath}/>
                         <Route exact path="/heizungen" component={Heating}/>

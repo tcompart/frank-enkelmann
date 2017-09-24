@@ -19,6 +19,16 @@ body {
     padding-top: 0;
   }
 
+  div.headline-contact {
+    font-size: 24px;
+    vertical-align:middle;
+
+    a {
+      margin-left: 5px;
+      vertical-align: text-bottom;
+    }
+  }
+
   font-style: normal;
   font-size: 120%;
   font-family: Arial, sans-serif !important;
@@ -60,14 +70,14 @@ body {
     }
 
     .inner-content {
-      padding-top: 3em;
+      padding-top: 0.5em;
       padding-left: 2em;
       padding-bottom: 1em;
     }
 
     .navigation-container {
 
-      margin-top: 70px;
+      margin-top: 1.5em;
 
       .nav {
         & > li > a {
