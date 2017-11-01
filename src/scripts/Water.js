@@ -1,6 +1,7 @@
 import React from "react";
 
 export default () => <div>
+    <h2 className="">Heizung und Sanitär in und um Berlin</h2>
     <p>
         Wartungsarbeiten und Neuanschlüsse im örtlichen Leitungsnetz verursachen regelmäßig Verschmutzungen des
         Trinkwassers z.B. mit Erd- und Rostpartikeln. Diese gelangen - ohne geeigneten Schutz - in ihre Hausinstallation

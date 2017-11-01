@@ -5,6 +5,7 @@ import Mail from "./Mail";
 
 export default () =>
     <div className="home">
+        <h2 className="">Heizung und Sanitär in und um Berlin</h2>
         <p>Wir stehen seit 20 Jahren als inhabergeführter Handwerksbetrieb für Qualität und Verlässlichkeit in den
             Bereichen
             Heizung und Sanitär in und um Berlin.
