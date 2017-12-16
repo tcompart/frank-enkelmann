@@ -21,7 +21,7 @@ export default () =>
         <p>
             Vereinbaren Sie einfach telefonisch einen Beratungstermin oder schreiben Sie uns
         </p>
-        <Col xs={1} sm={1} lg={1} md={1}>
+        <Col xs={3} sm={3} lg={2} md={3}>
             <Row>
                 Telefon:
             </Row>
@@ -33,7 +33,7 @@ export default () =>
             </Row>
         </Col>
 
-        <Col xs={11} sm={11} lg={11} md={11}>
+        <Col xs={9} sm={9} lg={10} md={9}>
             <Row>
                 <PhoneNumber isLinked={true} number="030 944 161 28"/>
             </Row>

@@ -1,21 +1,12 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
-import bath1 from "../images/bad-1.jpg"
-import bath2 from "../images/bad-2.jpg"
-import bath3 from "../images/bad-4.jpg"
+import bath1 from "../images/bad-16.jpg"
+import bath2 from "../images/bad-17.jpg"
+import bath3 from "../images/bad-18.jpg"
+
 export default () => <div className="bath">
-    <Col xs={12} sm={4} md={4} lg={3}>
-        <Row>
-           <img alt=""  src={bath1} />
-        </Row>
-        <Row>
-           <img alt=""  src={bath2} />
-        </Row>
-        <Row>
-           <img alt=""  src={bath3} />
-        </Row>
-    </Col>
-    <Col xs={12} sm={8} md={8} lg={9}>
+    <Row>
+        <Col xs={12} sm={12} md={12} lg={12}>
         <h1>Bäder</h1>
 
         <p>
@@ -38,4 +29,16 @@ export default () => <div className="bath">
             Komfort – wir beraten Sie gern.
         </p>
     </Col>
+    </Row>
+    <Row>
+        <Col xs={4} sm={4} md={4} lg={4}>
+            <img alt="" src={bath1}/>
+        </Col>
+        <Col xs={4} sm={4} md={4} lg={4}>
+            <img alt="" src={bath2}/>
+        </Col>
+        <Col xs={4} sm={4} md={4} lg={4}>
+            <img alt="" src={bath3}/>
+        </Col>
+    </Row>
 </div>

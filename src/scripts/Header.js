@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import {Col} from "react-bootstrap";
 
-export default (props) =>
+export default () =>
     <div>
         <header role="banner">
             <nav id="navbar-primary" className="navbar">
