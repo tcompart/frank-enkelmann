@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import PhoneNumber from "./PhoneNumber";
 import Mail from "./Mail";
 
@@ -19,29 +19,13 @@ export default () =>
             Für unsere Kunden bieten wir einen 24-Stunden Notdienst 0151 56 000 686
         </p>
         <p>
-            Vereinbaren Sie einfach telefonisch einen Beratungstermin oder schreiben Sie uns
+            Vereinbaren Sie einfach telefonisch einen Beratungstermin oder schreiben Sie uns.
         </p>
-        <Col xs={3} sm={3} lg={2} md={3}>
-            <Row>
-                Telefon:
-            </Row>
-            <Row>
-                Email:
-            </Row>
-            <Row>
-                Büro-Adresse:
-            </Row>
-        </Col>
 
-        <Col xs={9} sm={9} lg={10} md={9}>
-            <Row>
-                <PhoneNumber isLinked={true} number="030 944 161 28"/>
-            </Row>
-            <Row>
-                <Mail mailTo="info@heizungneu.de"/>
-            </Row>
-            <Row>
-                Alt Zepernick 2, 16341 Berlin
-            </Row>
-        </Col>
+        <Col style={{paddingLeft: 0}} xs={3} sm={3} lg={2} md={3}>Telefon:</Col>
+        <Col xs={9} sm={9} lg={10} md={9}><PhoneNumber isLinked={true} number="030 944 161 28"/></Col>
+        <Col style={{paddingLeft: 0}}  xs={3} sm={3} lg={2} md={3}>Email:</Col>
+        <Col xs={9} sm={9} lg={10} md={9}><Mail mailTo="info@heizungneu.de"/></Col>
+        <Col style={{paddingLeft: 0}}  xs={3} sm={3} lg={2} md={3}>Büro-Adresse:</Col>
+        <Col xs={9} sm={9} lg={10} md={9}>Alt Zepernick 2, 16341 Berlin</Col>
     </div>
