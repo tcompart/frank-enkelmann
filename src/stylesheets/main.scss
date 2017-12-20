@@ -46,6 +46,10 @@ body {
   font-size: 120%;
   font-family: Arial, sans-serif !important;
 
+  .bold {
+    font-weight: bold;
+  }
+
   a {
     color: $blue;
     &:hover, &:focus {
@@ -183,8 +187,12 @@ footer {
   }
 }
 
-footer > div.container {
+.margin-zero {
   margin: 0;
+}
+
+.padding-zero {
+  padding: 0;
 }
 
 .row {

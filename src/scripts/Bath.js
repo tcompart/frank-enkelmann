@@ -6,8 +6,7 @@ import bath3 from "../images/bad-18.jpg"
 
 export default () => <div className="bath">
     <Row>
-        <Col xs={12} sm={12} md={12} lg={12}>
-        <h1>Bäder</h1>
+        <h2>Bäder</h2>
 
         <p>
             Ob Neu- oder Umbau – wir bauen für Sie das komplette Bad.
@@ -28,7 +27,6 @@ export default () => <div className="bath">
             Menschen mit Behinderungen. Barrierefreie Bäder bedeuten dabei heute keine Einschränkung bei Design und
             Komfort – wir beraten Sie gern.
         </p>
-    </Col>
     </Row>
     <Row>
         <Col xs={4} sm={4} md={4} lg={4}>

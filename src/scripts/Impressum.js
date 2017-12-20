@@ -3,7 +3,7 @@ import PhoneNumber from "./PhoneNumber";
 import Mail from "./Mail";
 
 export default () => <div className='impressum'>
-    <h1>Impressum</h1>
+    <h2>Impressum</h2>
     <p>Angaben gemäß § 5 TMG</p>
     <p>
         Bollensdorff-Enkelmann GmbH <br/>
