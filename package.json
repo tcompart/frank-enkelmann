@@ -2,6 +2,11 @@
   "name": "heizung-neu.de",
   "version": "0.0.1",
   "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=5.5.1"
+  },
   "dependencies": {
     "auth0-js": "^8.10.1",
     "history": "^4.7.2",
