@@ -1,7 +1,7 @@
 $base: #f938ab;
 $blue: #012b4b;
 $oneSpace: 15px;
-$oneSmallSpace: 2px;
+$oneSmallSpace: 4px;
 
 $minWidth: 660px;
 $minMaxWidth: 559px;
@@ -18,7 +18,7 @@ $minMaxWidth: 559px;
 }
 
 body {
-  min-width: 425px;
+  min-width: 375px;
 
   margin: 0;
   @media (max-width: 767px) {
@@ -71,7 +71,6 @@ body {
 
   button.navbar-toggle {
     background-color: black;
-    margin-top: -70px;
     span.icon-bar {
       background-color: white;
     }
@@ -97,6 +96,10 @@ body {
       padding-left: $oneSmallSpace;
       padding-bottom: 1em;
 
+      nav.navbar {
+        margin-bottom: 0;
+      }
+
       @media (min-width: $minWidth) {
         padding-left: 2*$oneSpace;
       }
@@ -105,7 +108,6 @@ body {
 
     .navbar-collapse.collapse,.hidden-sm.hidden-md.hidden-lg {
 
-      margin-top: -20px;
 
       .nav {
         & > li > a {

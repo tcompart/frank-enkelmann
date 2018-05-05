@@ -28,27 +28,6 @@ export default class App extends React.Component {
             <BrowserRouter component={this}>
                 <div>
                     <Header {...this.props} />
-                    <nav className="hidden-sm hidden-md hidden-lg">
-                        <div>
-                            <div className="navbar-header">
-                                <button type="button" className="navbar-toggle" onClick={this.toggle.bind(this)}
-                                        data-toggle="collapse" data-target="#myNavbar">
-                                    <span className="icon-bar"/>
-                                    <span className="icon-bar"/>
-                                    <span className="icon-bar"/>
-                                </button>
-                            </div>
-                            <div className={(this.state.toggle ? "collapse " : "") + "navbar-collapse"} id="myNavbar">
-                                <ul className="nav navbar-nav" onClick={this.toggle.bind(this)}>
-                                    <li className="row-centered"><Link to="/">Allgemein</Link></li>
-                                    <li className="row-centered"><Link to="/baeder">Bäder</Link></li>
-                                    <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
-                                    <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
-                                    <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
                     <div className="content">
                         <FullScreenPicture/>
                         <Col className="navbar-collapse collapse hidden-xs" role="navigation" xs={12} mdOffset={1}
@@ -62,6 +41,27 @@ export default class App extends React.Component {
                             </ul>
                         </Col>
                         <Col className="inner-content" xs={12} md={11} sm={11} lg={10}>
+                            <nav className="hidden-sm hidden-md hidden-lg">
+                                <div>
+                                    <div className="navbar-header">
+                                        <button type="button" className="navbar-toggle" onClick={this.toggle.bind(this)}
+                                                data-toggle="collapse" data-target="#myNavbar">
+                                            <span className="icon-bar"/>
+                                            <span className="icon-bar"/>
+                                            <span className="icon-bar"/>
+                                        </button>
+                                    </div>
+                                    <div className={(this.state.toggle ? "collapse " : "") + "navbar-collapse"} id="myNavbar">
+                                        <ul className="nav navbar-nav" onClick={this.toggle.bind(this)}>
+                                            <li className="row-centered"><Link to="/">Allgemein</Link></li>
+                                            <li className="row-centered"><Link to="/baeder">Bäder</Link></li>
+                                            <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
+                                            <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
+                                            <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/baeder" component={Bath}/>
                             <Route exact path="/heizungen" component={Heating}/>

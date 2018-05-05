@@ -21,7 +21,7 @@ export default () => <div className="heating">
 
         <p>
             Unsere Anlagen orientieren sich dabei an Ihren Anforderungen und Möglichkeiten. Dabei ist alles denkbar.
-            Möchten Sie z.B. den Komfort klassischen Gasanlagen mit der Unabhängigkeit aus regenerativen Komponenten
+            Möchten Sie z.B. den Komfort klassischer Gasanlagen mit der Unabhängigkeit aus regenerativen Komponenten
             wie
             Solar oder Holz verbinden? Kein Problem – sprechen Sie uns gern an!
         </p>

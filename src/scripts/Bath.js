@@ -1,8 +1,5 @@
 import React from "react";
-import {Col, Row} from "react-bootstrap";
-import bath1 from "../images/bad-16.jpg"
-import bath2 from "../images/bad-17.jpg"
-import bath3 from "../images/bad-18.jpg"
+import {Row} from "react-bootstrap";
 
 export default () => <div className="bath">
     <Row>
@@ -23,20 +20,9 @@ export default () => <div className="bath">
             groß angelegten Erholungstempeln.
         </p>
         <p>
-            Als zertifizierte Partner im Bau barrierefreier Konzepte bieten wir auch maßgeschneiderte Lösungen für
+            Als zertifizierter Partner im Bau barrierefreier Konzepte bieten wir auch maßgeschneiderte Lösungen für
             Menschen mit Behinderungen. Barrierefreie Bäder bedeuten dabei heute keine Einschränkung bei Design und
             Komfort – wir beraten Sie gern.
         </p>
-    </Row>
-    <Row>
-        <Col xs={4} sm={4} md={4} lg={4}>
-            <img alt="" src={bath1}/>
-        </Col>
-        <Col xs={4} sm={4} md={4} lg={4}>
-            <img alt="" src={bath2}/>
-        </Col>
-        <Col xs={4} sm={4} md={4} lg={4}>
-            <img alt="" src={bath3}/>
-        </Col>
     </Row>
 </div>
