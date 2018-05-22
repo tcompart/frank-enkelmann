@@ -2,7 +2,7 @@ import React from "react";
 
 export default (props) => <div>
     <h2>Datenschutzerklärung</h2>
-    <h3 id="dsg-general-intro"/>
+    <h3 id="dsg-general-intro">Intro</h3>
     <p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der
         Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der
         mit
@@ -14,7 +14,7 @@ export default (props) => <div>
         <br/>
     </p>
     <h3 id="dsg-general-controller">Verantwortlicher</h3>
-    <p><span class="tsmcontroller">Vorname, Name /
+    <p><span className="tsmcontroller">Vorname, Name /
     Firma <br/>
     Straße
     Hausnr.
@@ -40,7 +40,7 @@ export default (props) => <div>
     - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br/>
     - Sicherheitsmaßnahmen.<br/>
     - Reichweitenmessung/Marketing<br/>
-    <span class="tsmcom"/></p>
+    <span className="tsmcom"/></p>
     <h3 id="dsg-general-terms">Verwendete Begrifflichkeiten </h3>
     <p>„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare
         natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche
@@ -211,7 +211,7 @@ export default (props) => <div>
     <h3 id="dsg-services-contractualservices">Vertragliche Leistungen</h3>
     <p/>
     <p>
-        <span class="ts-muster-content">Wir verarbeiten die Daten unserer Vertragspartner und Interessenten sowie
+        <span className="ts-muster-content">Wir verarbeiten die Daten unserer Vertragspartner und Interessenten sowie
             anderer Auftraggeber, Kunden, Mandanten, Klienten oder Vertragspartner (einheitlich bezeichnet als
             „Vertragspartner“) entsprechend Art. 6 Abs. 1 lit. b. DSGVO, um ihnen gegenüber unsere vertraglichen oder
             vorvertraglichen Leistungen zu erbringen. Die hierbei verarbeiteten Daten, die Art, der Umfang und der Zweck
@@ -245,7 +245,7 @@ export default (props) => <div>
 </span></p><p/>
     <h3 id="dsg-administration">Administration, Finanzbuchhaltung, Büroorganisation, Kontaktverwaltung</h3>
     <p/><p>
-    <span class="ts-muster-content">Wir verarbeiten Daten im Rahmen von Verwaltungsaufgaben sowie Organisation unseres
+    <span className="ts-muster-content">Wir verarbeiten Daten im Rahmen von Verwaltungsaufgaben sowie Organisation unseres
         Betriebs, Finanzbuchhaltung und Befolgung der gesetzlichen Pflichten, wie z.B. der Archivierung. Hierbei
         verarbeiten wir dieselben Daten, die wir im Rahmen der Erbringung unserer vertraglichen Leistungen verarbeiten.
         Die Verarbeitungsgrundlagen sind Art. 6 Abs. 1 lit. c. DSGVO, Art. 6 Abs. 1 lit. f. DSGVO. Von der Verarbeitung
@@ -261,6 +261,6 @@ export default (props) => <div>
 Ferner speichern wir auf Grundlage unserer betriebswirtschaftlichen Interessen Angaben zu Lieferanten, Veranstaltern und
         sonstigen Geschäftspartnern, z.B. zwecks späterer Kontaktaufnahme. Diese mehrheitlich unternehmensbezogenen
         Daten, speichern wir grundsätzlich dauerhaft.<br/>
-        </span></p><a href="https://datenschutz-generator.de" class="dsg1-5" rel="nofollow" target="_blank">Erstellt mit
-    Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
+        </span></p><a href="https://datenschutz-generator.de" className="dsg1-5" rel="nofollow noopener noreferrer"
+                      target="_blank">Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
 </div>
