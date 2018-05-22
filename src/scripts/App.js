@@ -7,6 +7,7 @@ import Bath from "./Bath";
 import Home from "./Home";
 import Header from "./Header";
 import Imprint from "./Impressum";
+import Privacy from "./Privacy";
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import FullScreenPicture from "./FullScreenPicture";
 
@@ -38,6 +39,7 @@ export default class App extends React.Component {
                                 <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
                                 <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
                                 <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
+                                <li className="row-centered"><Link to="/datenschutz">Datenschutz</Link></li>
                             </ul>
                         </Col>
                         <Col className="inner-content" xs={12} md={11} sm={11} lg={10}>
@@ -58,6 +60,7 @@ export default class App extends React.Component {
                                             <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
                                             <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
                                             <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
+                                            <li className="row-centered"><Link to="/datenschutz">Datenschutz</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -67,6 +70,7 @@ export default class App extends React.Component {
                             <Route exact path="/heizungen" component={Heating}/>
                             <Route exact path="/wasser" render={Water}/>
                             <Route exact path="/impressum" render={Imprint}/>
+                            <Route exact path="/datenschutz" render={Privacy}/>
                         </Col>
                     </div>
                     <Footer/>
