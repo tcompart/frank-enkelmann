@@ -38,6 +38,9 @@ export default (props) => <div>
     p>
     - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.<br/>
     - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br/>
+    - Vertragsabrechnungs- und Zahlungsdaten<br/>
+    - Kundenhistorie
+    - Vertragsstammdaten (Vertragsbeziehung, Produkt- bzw. Vertragsinteresse)
     - Sicherheitsmaßnahmen.<br/>
     - Reichweitenmessung/Marketing<br/>
     <span className="tsmcom"/></p>
