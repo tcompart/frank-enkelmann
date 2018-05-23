@@ -39,7 +39,7 @@ class FullScreenPicture extends React.Component {
         return <div>
 
             <Col className={"fullscreen-picture"} xs={12} sm={12} lg={12} md={12}>
-                <img alt="" src={picture}/>
+                <img alt="Die verwendeten Bilddateien sind Eigentum der Vigour GmBH. www.vigour.de" src={picture}/>
             </Col>
         </div>;
     }

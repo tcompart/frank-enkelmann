@@ -31,15 +31,12 @@ export default class App extends React.Component {
                     <Header {...this.props} />
                     <div className="content">
                         <FullScreenPicture/>
-                        <Col className="navbar-collapse collapse hidden-xs" role="navigation" xs={12} mdOffset={1}
-                             md={10} smOffset={1} sm={9} lgOffset={3} lg={6}>
+                        <Col className="navbar-collapse collapse hidden-xs" role="navigation">
                             <ul className="nav navbar-nav">
                                 <li className="row-centered"><Link to="/">Allgemein</Link></li>
                                 <li className="row-centered"><Link to="/baeder">Bäder</Link></li>
                                 <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
                                 <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
-                                <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
-                                <li className="row-centered"><Link to="/datenschutz">Datenschutz</Link></li>
                             </ul>
                         </Col>
                         <Col className="inner-content" xs={12} md={11} sm={11} lg={10}>
@@ -54,13 +51,11 @@ export default class App extends React.Component {
                                         </button>
                                     </div>
                                     <div className={(this.state.toggle ? "collapse " : "") + "navbar-collapse"} id="myNavbar">
-                                        <ul className="nav navbar-nav" onClick={this.toggle.bind(this)}>
+                                        <ul className="nav navbar-nav pull-right" onClick={this.toggle.bind(this)}>
                                             <li className="row-centered"><Link to="/">Allgemein</Link></li>
                                             <li className="row-centered"><Link to="/baeder">Bäder</Link></li>
                                             <li className="row-centered"><Link to="/heizungen">Heizungen</Link></li>
                                             <li className="row-centered"><Link to="/wasser">Wasseraufbereitung</Link></li>
-                                            <li className="row-centered"><Link to="/impressum">Impressum</Link></li>
-                                            <li className="row-centered"><Link to="/datenschutz">Datenschutz</Link></li>
                                         </ul>
                                     </div>
                                 </div>
