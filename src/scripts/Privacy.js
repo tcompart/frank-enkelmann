@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "./Contact";
 
 export default (props) => <div>
-
+    <h1>Datenschutz-Vereinbarung</h1>
 
     Verantwortliche Stelle im Sinne der Datenschutzgesetze ist:
     <Contact />
