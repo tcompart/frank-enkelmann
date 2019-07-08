@@ -4,7 +4,7 @@
   "private": true,
   "engineStrict": true,
   "engines": {
-    "node": "8.11.2"
+    "node": "8.16.0"
   },
   "dependencies": {
     "auth0-js": "^8.10.1",
@@ -39,7 +39,7 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
+    "not ie <= 10",
     "not op_mini all"
   ]
 }
