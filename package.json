@@ -13,7 +13,7 @@
     "prop-types": "latest",
     "react": "16.11.0",
     "react-app-polyfill": "1.0.4",
-    "react-bootstrap": "^0.33.0",
+    "react-bootstrap": "^1.5.0",
     "react-dom": "^16.11.0",
     "react-icons": "^3.8.0",
     "react-redux": "^7.1.3",
